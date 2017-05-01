@@ -45,8 +45,8 @@ ici nous allons tenter d'importer le fichier `contact.csv` contenant les donnée
 pour cela dans la bar de menu nous choisissons l'option configuration une page d'acceuil s'affiche puis dans l'onglet donnée de la section Administration nous choisissons l'option Assistant d'importation de donnée (voire figure suivante):
 ![evaluation capacité importation de donnée](assets/images/tache3ClickOnImportationDonnée.png)
 
-on page suivante s'affiche nous proposant de lancer l'assistant d'importation
-![evaluation capacité importation de donnée](assets/images/tache3LancementAssistantdImportationSuite1.png)
+la page suivante s'affiche nous proposant de lancer l'assistant d'importation
+![evaluation capacité importation de donnée](assets/images/Tache3LancementAssistantdImportationSuite1.png)
 
 une fois lancer l'importation se passe en 3 étapes: 
 - selection des données: c'est ici qu'on choisi le type de données à importer (comptes et contact, piste, solution, etc), l'action à éffectuer (dans notre cas est d'ajouter de nouveaux enregistrements), l'emplacement des données (fichier CSV, outlook CSV, etc) qui dans notre cas est un fichier CSV : 
