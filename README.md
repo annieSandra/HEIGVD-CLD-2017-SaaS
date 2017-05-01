@@ -30,7 +30,7 @@ après validation par email du compte crée, on se connecte pour la première fo
 Nous allons commençer notre visite par la gestion des encours 
 ![gestion des encours](assets/images/FamiliarisationApplication1.png)
 en choisissant d'afficher toutes opportunitées on obtient un tableau d'opportunité avec 50 éléments et leur description (nom opportunité, montant, date cloture etc voire figure)
-![gestion des encours](assets/images/familiarisationAppliToutesLesOpportunitees3.png)
+![gestion des encours](assets/images/familiariasationAppliToutesLesOpportunitees3.png)
 on constate qu'on peut également choisir de visualiser ses opportunitées sous forme de `kanban` (voire figure)
 ![gestion des encours opportunité vue kanban](assets/images/familiarisationAppliVueKanban.png)
 
@@ -44,9 +44,20 @@ ici nous allons tenter d'importer le fichier `contact.csv` contenant les donnée
 `
 pour cela dans la bar de menu nous choisissons l'option configuration une page d'acceuil s'affiche puis dans l'onglet donnée de la section Administration nous choisissons l'option Assistant d'importation de donnée (voire figure suivante):
 ![evaluation capacité importation de donnée](assets/images/tache3ClickOnImportationDonnée.png)
+
 on page suivante s'affiche nous proposant de lancer l'assistant d'importation
-![evaluation capacité importation de donnée](assets/images/tache3AssistantImportationLancerAccueil.png)
-une fois lancer l'importation se passe en 3 étapes 
+![evaluation capacité importation de donnée](assets/images/tache3LancementAssistantdImportationSuite1.png)
+
+une fois lancer l'importation se passe en 3 étapes: 
+- selection des données: c'est ici qu'on choisi le type de données à importer (comptes et contact, piste, solution, etc), l'action à éffectuer (dans notre cas est d'ajouter de nouveaux enregistrements), l'emplacement des données (fichier CSV, outlook CSV, etc) qui dans notre cas est un fichier CSV : 
+![evaluation capacité importation de donnée](assets/images/tache3ImportingDataCSV1.png)
+
+- modification de mappage : c'est ici qu'on peut mapper les champs de notre CSV qui n'ont pas pu automatiquement être mappé par exemple dans notre cas Preffered food n'a pas pu être mappé(avec un champ existant de salesforce) on peut donc choisir manuellement le champ de salesforce sur lequel il sera mappé dans notre cas nous n'avons pas choisit de champ il ne sera par conséquent pas importer dans salesforce.
+![evaluation capacité importation de donnée](assets/images/tache3ImportationDataCSV2.png)
+
+- Démarrage importation : c'est ici que l'utilisateur choisit ou pas d'importer ses données avec les configuration qu'il a fait dans notre cas nous avons 3 champs mappés et un champ non mappé
+![evaluation capacité importation de donnée](assets/images/tache3ImportationdataCSV3.png)
+une fois lancer l'importation on reçoit par email un message de confirmation d'importation et en plus la page suivante s'affiche
 
 ## TÂCHE 4: PREPARATION POUR LA VENTE
 ## TÂCHE 5: EVALUATION DES CAPACITES DE CONTRÔLE DE MISE A JOUR
