@@ -16,17 +16,37 @@ Dans ce laboratoire nous nous intéressons aux infrastructures cloud de type sof
 5. [Tâche 5: Evaluation des capacités de mise à jour de contrôle](#t%C3%82che-5-evaluation-des-capacites-de-controle-de-mise-a-jour)
 
 ## TÂCHE 1: INSCRIPTION SALESFORCE 
+
 À partir du site officiel de salesforce nous avons choisit free trial pour créer notre compte 
 ![inscription salesforce](assets/images/CreationCompte.png)
 nous sommes invité à entrer nos données 
 ![inscription salesforce](assets/images/creationCompte2.png)
 après validation par email du compte crée, on se connecte pour la première fois à l'appli et une page d'acueil nous est affiché avec 4 différentes options de visites
-![inscription salesforce first Connection](assetss/images/CreationCompte3.png)
+![inscription salesforce first Connection](assets/images/CreationCompte3.png)
 
 
 ## TÂCHE 2: FAMILIARISATION AVEC L'APPLICATION
 
 Nous allons commençer notre visite par la gestion des encours 
+![gestion des encours](assets/images/FamiliarisationApplication1.png)
+en choisissant d'afficher toutes opportunitées on obtient un tableau d'opportunité avec 50 éléments et leur description (nom opportunité, montant, date cloture etc voire figure)
+![gestion des encours](assets/images/familiarisationAppliToutesLesOpportunitees3.png)
+on constate qu'on peut également choisir de visualiser ses opportunitées sous forme de `kanban` (voire figure)
+![gestion des encours opportunité vue kanban](assets/images/familiarisationAppliVueKanban.png)
+
 ## TÂCHE 3: EVALUATION DE CAPACITE D'IMPORTATION DES DONNEES
+
+ici nous allons tenter d'importer le fichier `contact.csv` contenant les données suivantes :
+`Firstname, Lastname, Email, Preffered food
+ Albert, einstein, aeinstein@hes-so.ch, French
+ Bertrand, Piccard, bpiccard@hes-so.ch, Italian
+ Claude, Nicollier, cnicollier@hes-so.ch, Mexican
+`
+pour cela dans la bar de menu nous choisissons l'option configuration une page d'acceuil s'affiche puis dans l'onglet donnée de la section Administration nous choisissons l'option Assistant d'importation de donnée (voire figure suivante):
+![evaluation capacité importation de donnée](assets/images/tache3ClickOnImportationDonnée.png)
+on page suivante s'affiche nous proposant de lancer l'assistant d'importation
+![evaluation capacité importation de donnée](assets/images/tache3AssistantImportationLancerAccueil.png)
+une fois lancer l'importation se passe en 3 étapes 
+
 ## TÂCHE 4: PREPARATION POUR LA VENTE
 ## TÂCHE 5: EVALUATION DES CAPACITES DE CONTRÔLE DE MISE A JOUR
