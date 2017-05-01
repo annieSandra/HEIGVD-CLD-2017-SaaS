@@ -57,7 +57,26 @@ une fois lancer l'importation se passe en 3 étapes:
 
 - Démarrage importation : c'est ici que l'utilisateur choisit ou pas d'importer ses données avec les configuration qu'il a fait dans notre cas nous avons 3 champs mappés et un champ non mappé
 ![evaluation capacité importation de donnée](assets/images/tache3ImportationdataCSV3.png)
-une fois lancer l'importation on reçoit par email un message de confirmation d'importation et en plus la page suivante s'affiche
+
+une fois terminer l'importation on reçoit par email un message de confirmation d'importation. Si va dans l'onglet contact de la barre de menu et qu'on selectionne tous les contacts on remarque qu'il y a les 3 nouveaux contacts qu'on a rajouté(albert,bertrand, claude) avec les champs non spécifiés vides (tel le telephone, nom du compte etc):
+![evaluation capacité importation de donnée](assets/images/tache3ImportationdataCSVTermineeTousLesContact.png)
 
 ## TÂCHE 4: PREPARATION POUR LA VENTE
+
+ici nous allons exporter toutes les données de salesforce pour évaluer le niveau de difficulté de cet opération. La procédure est presque identique à celle de l'importation sauf que dans ce cas nous choisiront l'option Exporter les données puis exporter maintenant
+![preparation pour la vente](assets/images/tache4ExportingData1.png)
+
+une fois terminé quelques minutes plutard nous reçevons par email un message pour confirmer la reception de l'exportation
+![preparation pour la vente](assets/images/tache4ExportingDataReceiveConfirm.png)
+
+un click sur le lien de confirmation nous affiche la page suivante avec le ZIP des données
+![preparation pour la vente](assets/images/tache4exportingdata2.png)
+
+une fois télécharger on remrque le zip contient un ensemble de fichier CSV parmi lesquels notre fichier Contact.csv dont les dernières entrées sont celles des données importer précédement:
+![preparation pour la vente](assets/images/tache4exportingDataResultzipwithMyImport.png)
+
+il est claire que pour quelqu'un qui ne s'y connait pas ça fait toute suite un champ de bataille de données(on compte 118 fichiers csv) presque incompréhensible vu la longueur des differentes tables (grand nombre de champ).En plus s'il faut comparer par exemple le ficher `Lead.csv` à la table `Lead` du model de donné officiel il y a une énorme différence dans le .csv on compte 45 champ alors la table Lead du modèle de donné contient 8 champs
+![preaparation pour la vente](assets/images/tache4Lead.PNG)
+![prepartion pour la vente](assets/images/tache4exportingdataSchema.png)
+
 ## TÂCHE 5: EVALUATION DES CAPACITES DE CONTRÔLE DE MISE A JOUR
