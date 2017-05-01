@@ -53,7 +53,7 @@ une fois lancer l'importation se passe en 3 étapes:
 ![evaluation capacité importation de donnée](assets/images/tache3ImportingDataCSV1.png)
 
 - modification de mappage : c'est ici qu'on peut mapper les champs de notre CSV qui n'ont pas pu automatiquement être mappé par exemple dans notre cas Preffered food n'a pas pu être mappé(avec un champ existant de salesforce) on peut donc choisir manuellement le champ de salesforce sur lequel il sera mappé dans notre cas nous n'avons pas choisit de champ il ne sera par conséquent pas importer dans salesforce.
-![evaluation capacité importation de donnée](assets/images/tache3ImportationDataCSV2.png)
+![evaluation capacité importation de donnée](assets/images/tache3ImportationdataCSV2.png)
 
 - Démarrage importation : c'est ici que l'utilisateur choisit ou pas d'importer ses données avec les configuration qu'il a fait dans notre cas nous avons 3 champs mappés et un champ non mappé
 ![evaluation capacité importation de donnée](assets/images/tache3ImportationdataCSV3.png)
