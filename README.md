@@ -37,11 +37,12 @@ on constate qu'on peut également choisir de visualiser ses opportunitées sous 
 ## TÂCHE 3: EVALUATION DE CAPACITE D'IMPORTATION DES DONNEES
 
 ici nous allons tenter d'importer le fichier `contact.csv` contenant les données suivantes :
-`Firstname, Lastname, Email, Preffered food
+```
+ Firstname, Lastname, Email, Preffered food
  Albert, einstein, aeinstein@hes-so.ch, French
  Bertrand, Piccard, bpiccard@hes-so.ch, Italian
  Claude, Nicollier, cnicollier@hes-so.ch, Mexican
-`
+```
 pour cela dans la bar de menu nous choisissons l'option configuration une page d'acceuil s'affiche puis dans l'onglet donnée de la section Administration nous choisissons l'option Assistant d'importation de donnée (voire figure suivante):
 ![evaluation capacité importation de donnée](assets/images/tache3ClickOnImportationDonnée.png)
 
